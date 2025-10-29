@@ -6,9 +6,21 @@
     <title>The Tailor's Village</title>
   </head>
   <style>
+    body {
+      background-color: grey;
+    }
     .main-title {
       text-align: center;
       font-size: 50px;
+    }
+
+    .title-container {
+      background-image: url("https://embassycleaners.com/wp-content/uploads/2015/08/custom-tailoring.jpg");
+      background-size: cover;
+      margin: 120px auto;
+      max-width: 2000px;
+      border-radius: 10px;
+      padding: 30px 60px 30px;
     }
 
     .container {
@@ -21,14 +33,19 @@
     }
 
     .company-initials {
+      display: block;
       font-size: 50px;
       font-weight: bolder;
       border: 5px solid black;
-      width: 126px;
+      width: 120px;
     }
 
     .core-services {
       text-align: center;
+    }
+
+    p {
+      font-size: 20px;
     }
     .contact-stuff {
       text-align: center;
@@ -38,7 +55,9 @@
     }
   </style>
   <body>
-    <h1 class="main-title">Welcome to the Tailor's Village</h1>
+    <div class="title-container">
+      <h1 class="main-title">Welcome to the Tailor's Village</h1>
+    </div>
 
     <div class="intro-message">
       <div class="container">

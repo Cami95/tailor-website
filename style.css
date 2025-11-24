@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-container {
+    background-image: url("https://assets.vogue.com/photos/5f74f7d208fdcc6598c7bb75/master/w_2560%2Cc_limit/_CIK0894.jpg");
+    background-size: cover;
+    margin: 120px auto;
+    max-width: 2000px;
+    border-radius: 10px;
+    padding: 30px 60px 30px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.collection-grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.collection-grid img {
+    width: 300px;
+}
+
+.container {
+    text-align: center;
+    margin: 120px auto;
+    max-width: 600px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.company-initials {
+    margin: 12px auto;
+    font-size: 50px;
+    font-weight: bolder;
+    border: 5px solid black;
+    width: 120px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.contact-stuff {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

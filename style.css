@@ -21,6 +21,22 @@ body {
     font-size: 25px;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-animation{
+    border-radius: 100%;
+    animation: spin 1s linear ;
+}
+
+
+
 .collection-grid {
     display: grid;
     text-align: center;

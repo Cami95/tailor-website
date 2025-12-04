@@ -15,6 +15,18 @@ button{
     padding: 10px 8px;
 }
 
+button:hover{
+    cursor: pointer;
+    background: darkblue;
+    color: white;
+}
+
+.dark{
+    background: black;
+    color: white;
+}
+
+
 .dresses-photo{
     border-radius: 10px;
     transition: all 150ms ease-in-out;

@@ -7,7 +7,7 @@
     <title>Sundaybest-Designs</title>
   </head>
 
-  <body>
+  <body class="dark">
     <div class="navigation-links">
       <span>
         <a href="index.html"> Home </a>
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <button>Dark Mode!</button>
+    <button class="dark-button">Dark Mode!</button>
 
     <h1>The Collections!</h1>
     <div class="collection-grid">
@@ -201,5 +201,21 @@
         >Netlify</a
       >! Thanks for stopping by!
     </footer>
+
+    <script>
+      function changeColor() {
+        let body = document.querySelector("body");
+
+        if (body.classList.containes("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+
+        body.classList.add("dark");
+      }
+      let darkButton = document.querySelector(".dark-button");
+      darkButton.addEventListener("click", changeColor);
+    </script>
   </body>
 </html>

@@ -1,7 +1,75 @@
 body {
     display: grid;
     place-items: center;
-    background-color: white;
+    background: lightskyblue;
+    
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    border: 5px solid purple;
+    background: white;
+    font-size: 25px;
+    border-radius: 6px;
+    padding: 10px 8px;
+}
+
+.dresses-photo{
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.dresses-photo:hover {
+    opacity: 0.7;
+    
+}
+
+.tops-photo{
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.tops-photo:hover{
+    opacity: 0.7;
+    
+}
+
+.buttoms-photo{
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.buttoms-photo:hover{
+    opacity: 0.7;
+
+}
+
+.outfits-photo{
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.outfits-photo:hover{
+    opacity: 0.7;
+}
+
+.assessories-photo{
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.assessories-photo:hover{
+    opacity: 0.7;
+}
+
+.outerware-photo{
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.outerware-photo:hover{
+    opacity: 0.7;
 }
 
 .navigation-links {

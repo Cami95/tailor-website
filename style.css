@@ -1,7 +1,7 @@
 body {
     display: grid;
     place-items: center;
-    background: red
+    background: grey;
     
 }
 
@@ -70,7 +70,9 @@ body {
 }
 
 .title-container {
-    background-image: url("https://assets.vogue.com/photos/5f74f7d208fdcc6598c7bb75/master/w_2560%2Cc_limit/_CIK0894.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://assets.vogue.com/photos/5f74f7d208fdcc6598c7bb75/master/w_2560%2Cc_limit/_CIK0894.jpg"), url("blob: https: //outlook.live.com/75fb6fba-7d29-4aab-acd1-badf963e0851");
     background-size: cover;
     margin: 120px auto;
     max-width: 2000px;
@@ -101,6 +103,10 @@ body {
 .collection-grid {
     display: grid;
     text-align: center;
+    background-color: red;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 25px;
     grid-template-columns: 300px 300px 300px;
     grid-gap: 15px;
 }
@@ -113,22 +119,22 @@ h1 {
     width: 300px;
 }
 
+.collection-grid p {
+    font-size: 25px;
+}
+
+
+
 .container {
     text-align: center;
     margin: 120px auto;
     max-width: 600px;
-    background-color: lightseagreen;
+    background-color: white;
+    border: 2px solid red;
     border-radius: 10px;
     padding: 30px;
 }
 
-.company-initials {
-    margin: 12px auto;
-    font-size: 50px;
-    font-weight: bolder;
-    border: 5px solid black;
-    width: 120px;
-}
 
 p {
     font-size: 20px;
@@ -136,8 +142,13 @@ p {
 
 .contact-stuff {
     text-align: center;
+    background-color: white;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 25px;
 }
 
 footer {
     text-align: center;
+    
 }

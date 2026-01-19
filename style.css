@@ -5,6 +5,15 @@ body {
     
 }
 
+.runway-model-banner img {
+    padding: 35px;
+    width: 100px;
+    height: auto;
+}
+
+
+
+
 
 
 .dresses-photo{
@@ -70,7 +79,7 @@ body {
 }
 
 .title-container {
-    display: flex;
+     display: flex;
     justify-content: space-evenly;
     background-image: url("https://assets.vogue.com/photos/5f74f7d208fdcc6598c7bb75/master/w_2560%2Cc_limit/_CIK0894.jpg"), url("blob: https: //outlook.live.com/75fb6fba-7d29-4aab-acd1-badf963e0851");
     background-size: cover;
@@ -83,6 +92,7 @@ body {
     font-size: 25px;
     
 }
+   
 
 @keyframes spin {
     0% {

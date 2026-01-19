@@ -5,11 +5,8 @@ body {
     
 }
 
-.runway-model-banner img {
-    padding: 35px;
-    width: 100px;
-    height: auto;
-}
+
+
 
 
 
@@ -74,9 +71,25 @@ body {
 }
 
 .navigation-links {
-    display: flex;
-    justify-content: space-evenly;
+    
+    padding: 35px;
+
 }
+
+
+
+
+button{
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 12px;
+    padding: 14px 24px;
+    width: 150px;
+    font-size: 16px;
+
+}
+
+
 
 .title-container {
      display: flex;

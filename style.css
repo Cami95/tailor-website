@@ -6,12 +6,9 @@ body {
 }
 
 
-
-
-
-
-
-
+.sundaybest-logo{
+    width: 1000px;
+}
 
 .dresses-photo{
     border-radius: 10px;
@@ -71,8 +68,11 @@ body {
 }
 
 .navigation-links {
+
+    position: fixed;
+    top: 0;
     
-    padding: 35px;
+    padding: 35px 0;
 
 }
 

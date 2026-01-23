@@ -8,6 +8,7 @@ body {
 
 .sundaybest-logo{
     width: 1000px;
+    
 }
 
 .dresses-photo{
@@ -68,12 +69,9 @@ body {
 }
 
 .navigation-links {
-
     position: fixed;
     top: 0;
-    
     padding: 35px 0;
-
 }
 
 
@@ -148,15 +146,22 @@ h1 {
 
 
 
-.container {
-    text-align: center;
-    margin: 120px auto;
-    max-width: 600px;
-    background-color: white;
-    border: 2px solid red;
-    border-radius: 10px;
-    padding: 30px;
+.main-bio div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+    
 }
+
+.main-bio div{
+    display: inline;
+}
+
+
+
+
 
 
 p {

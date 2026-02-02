@@ -146,17 +146,12 @@ h1 {
 
 
 
-.main-bio div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.main-bio{
+    text-align: center;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 10px;
     
-    
-    
-}
-
-.main-bio div{
-    display: inline;
 }
 
 

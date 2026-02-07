@@ -17,6 +17,13 @@ body {
     padding-left: 1000px;
 }
 
+.art-print p {
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px ;
+}
+
 .dresses-photo{
     border-radius: 10px;
     transition: all 150ms ease-in-out;

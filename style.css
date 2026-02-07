@@ -11,6 +11,12 @@ body {
     
 }
 
+.art-print{
+    position: absolute;
+    top: 0;
+    padding-left: 1000px;
+}
+
 .dresses-photo{
     border-radius: 10px;
     transition: all 150ms ease-in-out;
